@@ -368,7 +368,7 @@ const InterviewPortal = () => {
 };
 
 const validateRegNo = (regNo) => {
-  const regNoPattern = /^(21|22|23|24)B[A-Z]{2}\d{4}$/;
+  const regNoPattern = /^(21|22|23|24)[BM][A-Z]{2}\d{4}$/;
   return regNoPattern.test(regNo);
 };
 
